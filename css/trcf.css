@@ -1,0 +1,112 @@
+#trcf {
+    display: none;
+    height: 205px;
+    background-image: url(../img/trcf/Background.png);
+    background-position: center;
+    background-size: contain;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.leftgameBlock {
+    width: 128px;
+    height: 200px;
+}
+
+.gameInfo {
+    padding-top: 20px;
+    height: 80px;
+}
+
+.gameInfo p {
+    color: #fafafa;
+    font-size: 30px;
+    text-align: center;
+}
+
+@keyframes firee {
+    0%   {
+        background-image: url(../img/trcf/torch1_1.png);
+    }
+    30%  {
+        background-image: url(../img/trcf/torch1_2.png);
+    }
+    60%  {
+        background-image: url(../img/trcf/torch1_3.png);
+    }
+
+    90%  {
+        background-image: url(../img/trcf/torch1_2.png);
+    }
+  }
+
+.torch {
+    width: 128px;
+    height: 100px;
+    background-image: url(../img/trcf/torch1_1.png);
+    animation-name: firee;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+.chest {
+    width: 121px;
+    height: 138px;
+    margin-left: 70px;
+    background-image: url(../img/trcf/chest.png);
+}
+
+.chest:hover {
+
+    background-image: url(../img/trcf/openChest.png);
+}
+
+.upgrade {
+    width: 256px;
+    display: flex;
+}
+
+.buyHero {
+    width: 128px;
+    height: 64px;
+    background-image: url(../img/trcf/buyheroUP.png);
+    background-repeat: no-repeat;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyHero:hover {
+    width: 128px;
+    height: 64px;
+    background-image: url(../img/trcf/buyheroDown.png);
+}
+
+.buySkelet {
+    width: 128px;
+    height: 64px;
+    background-image: url(../img/trcf/buyskeletUp.png);
+    background-repeat: no-repeat;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buySkelet:hover {
+    width: 128px;
+    height: 64px;
+    background-image: url(../img/trcf/buyskeletDown.png);
+}
+
+.rightgameBlock {
+    width: 128px;
+    height: 200px;
+}
+
+@media (max-width: 522px) {
+    .rightgameBlock {
+        display: none;
+    }
+  }

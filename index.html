@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="css/trcf.css">
+  <script src="https://kit.fontawesome.com/58adcaa94b.js" crossorigin="anonymous"></script>
+  <title>Shatunbaba - Front-end Developer</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#" class="navigation active">Home</a>
+      <a href="#" class="navigation">About me</a>
+      <a href="#" class="navigation">Skills</a>
+      <a href="#" class="navigation">Portfolio</a>
+      <a href="#" class="navigation">Contacts</a>
+    </nav>
+    <span class="burgerMenu" id="burgerButton"><i class="fa-solid fa-bars"></i></span>
+    <div class="mobileMenu hide">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About me</a></li>
+        <li><a href="">Skills</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">Contacts</a></li>
+      </ul>
+      <div class="closeMenu" id="closeMenu">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </div>
+    <div class="hero">
+      <h1>Andrey Bondarenko</h1>
+      <div class="info">
+        <h2>Front-end Developer</h2>
+        <h2>29 years old, Kyiv</h2>
+      </div>
+      <div class="lang">
+        <span class="ru">RU</span>
+        <span>|</span>
+        <span class="eu">ENG</span>
+      </div>
+    </div>
+    <div class="author"></div>
+  </header>
+  <main>
+    <div class="aboutMe">
+      <h2>About me</h2>
+      <p>Hi, I'm Andrey – Front-end Developer from Kyiv. 
+        I'm interested in web developer and everything connected with it.
+        <br><br>
+        I'm studying at courses "Front-end developer" in IT-Academy.
+        <br><br>
+        Ready to implement excellent projects
+         with wonderful people.</p>
+    </div>
+    <!-- trcf -->
+    <div class="trcf" id="trcf">
+      <div class="leftgameBlock">
+        <div class="gameInfo">
+          <p class="gameMoney">⭐ 0</p>
+        </div>
+        <div class="torch"></div>
+      </div>
+      <div class="centergameBlock">
+        <div class="chest" id="chest"></div>
+        <div class="upgrade">
+          <div class="buyHero">🛒 10</div>
+          <div class="buySkelet">🛒 20</div>
+        </div>
+      </div>
+      <div class="rightgameBlock">
+        <div class="gameInfo">
+          <p class="moneyPerSec">🗡️ 0</p>
+        </div>
+        <div class="torch"></div>
+      </div>
+    </div>
+    <!-- trcf -->
+    <div class="mySkill">
+      <h3>Skills</h3>
+      <p>My some skill</p>
+      <div class="skillBox">
+
+        <div class="js">
+          <div class="imgHolder forJs" id="forJs"></div>
+          <p class="progLang">JavaScript</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+
+        <div class="html">
+          <div class="imgHolder forHtml"></div>
+          <p class="progLang">HTML5</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+
+        <div class="css">
+          <div class="imgHolder forCss"></div>
+          <p class="progLang">CSS</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="portfolio">
+      <h2>Portfolio</h2>
+      <div class="webPortfolio">
+        <div class="readySite"></div>
+        <span><a class="linkA" href="#">CINC. our blog - home page</a></span>
+      </div>
+      <div class="webPortfolio">
+        <div class="readySite secondWeb"></div>
+        <span><a class="linkA" href="#">Some random blog - home page</a></span>
+      </div>
+      <div class="webPortfolio">
+        <div class="readySite lastWeb"></div>
+        <span><a class="linkA" href="#">Antoher one site - home page</a></span>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <h2>Contacts</h2>
+    <p>Want to know more or just chat? <br>
+      You are welcome!</p>
+    <button>Send message</button>
+
+    <div class="social">
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-telegram"></i>
+    </div>
+
+    <p class="likeMe">Follow me at <br>
+      LinkedIn, Instagram, telegram</p>
+  </footer>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+  <script src="js/trcf.js"></script>
+  <script src="js/menuburg.js"></script>
+</body>
+</html>
